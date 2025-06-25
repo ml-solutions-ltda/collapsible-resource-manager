@@ -1,5 +1,5 @@
 {
-    "name": "digital-creative/collapsible-resource-manager",
+    "name": "mlsolutions/collapsible-resource-manager",
     "description": "A custom sidebar menu with collapsible groups",
     "keywords": [
         "laravel",
@@ -8,11 +8,7 @@
         "collapse",
         "collapsible"
     ],
-    "authors": [
-        {
-            "name": "Rafael Milewski"
-        }
-    ],
+    "authors": [],
     "license": "MIT",
     "require": {
         "php": ">=8.1",
@@ -20,13 +16,13 @@
     },
     "autoload": {
         "psr-4": {
-            "DigitalCreative\\CollapsibleResourceManager\\": "src/"
+            "MlSolutions\\CollapsibleResourceManager\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "DigitalCreative\\CollapsibleResourceManager\\CollapsibleResourceManagerServiceProvider"
+                "MlSolutions\\CollapsibleResourceManager\\CollapsibleResourceManagerServiceProvider"
             ]
         }
     },
